@@ -5,13 +5,12 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    login_info: {
+      login: false,
+      type: '',
+      avatar: require('@/assets/img/avatar.png')
+    }
   },
-  getters: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
-  modules: {
-  }
+  actions: {},
+  modules: {}
 })
